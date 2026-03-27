@@ -1,15 +1,15 @@
-h1, h2, h3 {text-align: center; 
+h1, h2, h3, caption {text-align: center; 
     text-decoration:underline;
     color:white
 }
 
-p, li, tr, a, label{color:aquamarine}
+p, li, tr, a, label{color:#7fffd4}
 
-#p0::first-letter, #p1::first-letter, #p2::first-letter, #p3::first-letter, #p4::first-letter, #p5::first-letter, #p6::first-letter, #p7::first-letter, #p8::first-letter, #p9::first-letter, #p10::first-letter, #p11::first-letter{
+.pa::first-letter{
     font-size:44px;
 }
 
-table thead tr, #pa, label[for="q1"], label[for="q3"], label[for="q5"]{color:deepskyblue}
+table thead th, #p1, label[for="q1"], label[for="q3"], label[for="q5"]{color:deepskyblue}
 
 img {
     width: 80%;
@@ -26,6 +26,7 @@ body{
 table {
     margin-left: auto;
     margin-right: auto;
+    text-align: right;
 }
 
 header {
