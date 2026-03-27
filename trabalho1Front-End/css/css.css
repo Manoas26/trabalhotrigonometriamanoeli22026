@@ -9,7 +9,7 @@ p, li, tr, a, label{color:aquamarine}
     font-size:44px;
 }
 
-table thead tr, #pa, label[for="q1"], label[for="q3"], label[for="q5"]{color:darkcyan}
+table thead tr, #pa, label[for="q1"], label[for="q3"], label[for="q5"]{color:deepskyblue}
 
 img {
     width: 80%;
